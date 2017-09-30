@@ -1,0 +1,866 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57324070088F3C0BB5836DEF /* Pods_yPlayerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A47E8041D27EF5AD35C692F /* Pods_yPlayerUITests.framework */; };
+		7132B6BB65E08EEBE38A65AF /* Pods_yPlayerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 601868CCB6BA4B3A29CCD389 /* Pods_yPlayerTests.framework */; };
+		F041A94BB20F3F817885FE61 /* Pods_yPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE18E1AA8BD2073D6B25789 /* Pods_yPlayer.framework */; };
+		FC0410E61F7FCA9000CBD613 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0410E51F7FCA9000CBD613 /* LoginViewController.swift */; };
+		FC0410E81F7FCCFE00CBD613 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0410E71F7FCCFE00CBD613 /* iAd.framework */; };
+		FC0410EA1F7FCD1700CBD613 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0410E91F7FCD1700CBD613 /* AdSupport.framework */; };
+		FCAC1BDC1F7F3F7D0009C157 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAC1BDB1F7F3F7D0009C157 /* AppDelegate.swift */; };
+		FCAC1BDE1F7F3F7D0009C157 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAC1BDD1F7F3F7D0009C157 /* ViewController.swift */; };
+		FCAC1BE11F7F3F7D0009C157 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCAC1BDF1F7F3F7D0009C157 /* Main.storyboard */; };
+		FCAC1BE41F7F3F7D0009C157 /* yPlayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCAC1BE21F7F3F7D0009C157 /* yPlayer.xcdatamodeld */; };
+		FCAC1BE61F7F3F7D0009C157 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCAC1BE51F7F3F7D0009C157 /* Assets.xcassets */; };
+		FCAC1BE91F7F3F7D0009C157 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCAC1BE71F7F3F7D0009C157 /* LaunchScreen.storyboard */; };
+		FCAC1BF41F7F3F7E0009C157 /* yPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAC1BF31F7F3F7E0009C157 /* yPlayerTests.swift */; };
+		FCAC1BFF1F7F3F7E0009C157 /* yPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAC1BFE1F7F3F7E0009C157 /* yPlayerUITests.swift */; };
+		FCAC1C111F7F4B2F0009C157 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FCAC1C101F7F4B2F0009C157 /* GoogleService-Info.plist */; };
+		FCAC1C131F7F5A7A0009C157 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAC1C121F7F5A7A0009C157 /* VideoCell.swift */; };
+		FCAC1C161F7F72E20009C157 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAC1C151F7F72E20009C157 /* Extensions.swift */; };
+		FCAC1C181F7F8D660009C157 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAC1C171F7F8D660009C157 /* PlayerViewController.swift */; };
+		FCAC1C221F7F91800009C157 /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAC1C211F7F91800009C157 /* YTPlayerView.m */; };
+		FCAC1C241F7F98530009C157 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCAC1C231F7F98530009C157 /* MediaPlayer.framework */; };
+		FCAC1C2E1F7F9A8F0009C157 /* HCYoutubeParser.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAC1C2D1F7F9A8F0009C157 /* HCYoutubeParser.m */; };
+		FCAC1C301F7FA05A0009C157 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCAC1C2F1F7FA05A0009C157 /* AVKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCAC1BF01F7F3F7E0009C157 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCAC1BD01F7F3F7D0009C157 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCAC1BD71F7F3F7D0009C157;
+			remoteInfo = yPlayer;
+		};
+		FCAC1BFB1F7F3F7E0009C157 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCAC1BD01F7F3F7D0009C157 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCAC1BD71F7F3F7D0009C157;
+			remoteInfo = yPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		191491FBFB22626A4C4C9364 /* Pods-yPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-yPlayer/Pods-yPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		2AE18E1AA8BD2073D6B25789 /* Pods_yPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A47E8041D27EF5AD35C692F /* Pods_yPlayerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yPlayerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		601868CCB6BA4B3A29CCD389 /* Pods_yPlayerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yPlayerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6505FA9C23FB5FCD9C43B0F3 /* Pods-yPlayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yPlayerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-yPlayerTests/Pods-yPlayerTests.release.xcconfig"; sourceTree = "<group>"; };
+		B2CC99033BBC5C390D36FCC3 /* Pods-yPlayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yPlayerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yPlayerTests/Pods-yPlayerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BF376396B29434699BCAC898 /* Pods-yPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yPlayer/Pods-yPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		D8CB219EB74AF6762D309768 /* Pods-yPlayerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yPlayerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-yPlayerUITests/Pods-yPlayerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FC0410E51F7FCA9000CBD613 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FC0410E71F7FCCFE00CBD613 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		FC0410E91F7FCD1700CBD613 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		FCAC1BD81F7F3F7D0009C157 /* yPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCAC1BDB1F7F3F7D0009C157 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCAC1BDD1F7F3F7D0009C157 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCAC1BE01F7F3F7D0009C157 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCAC1BE31F7F3F7D0009C157 /* yPlayer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = yPlayer.xcdatamodel; sourceTree = "<group>"; };
+		FCAC1BE51F7F3F7D0009C157 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCAC1BE81F7F3F7D0009C157 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCAC1BEA1F7F3F7D0009C157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCAC1BEF1F7F3F7E0009C157 /* yPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCAC1BF31F7F3F7E0009C157 /* yPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yPlayerTests.swift; sourceTree = "<group>"; };
+		FCAC1BF51F7F3F7E0009C157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCAC1BFA1F7F3F7E0009C157 /* yPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCAC1BFE1F7F3F7E0009C157 /* yPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yPlayerUITests.swift; sourceTree = "<group>"; };
+		FCAC1C001F7F3F7E0009C157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCAC1C101F7F4B2F0009C157 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FCAC1C121F7F5A7A0009C157 /* VideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		FCAC1C151F7F72E20009C157 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FCAC1C171F7F8D660009C157 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		FCAC1C191F7F8EAF0009C157 /* yPlayer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "yPlayer-Bridging-Header.h"; sourceTree = "<group>"; };
+		FCAC1C201F7F91800009C157 /* YTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTPlayerView.h; sourceTree = "<group>"; };
+		FCAC1C211F7F91800009C157 /* YTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTPlayerView.m; sourceTree = "<group>"; };
+		FCAC1C231F7F98530009C157 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		FCAC1C2C1F7F9A8F0009C157 /* HCYoutubeParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCYoutubeParser.h; sourceTree = "<group>"; };
+		FCAC1C2D1F7F9A8F0009C157 /* HCYoutubeParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCYoutubeParser.m; sourceTree = "<group>"; };
+		FCAC1C2F1F7FA05A0009C157 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		FD724758367FDD7854755617 /* Pods-yPlayerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yPlayerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yPlayerUITests/Pods-yPlayerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCAC1BD51F7F3F7D0009C157 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0410EA1F7FCD1700CBD613 /* AdSupport.framework in Frameworks */,
+				FC0410E81F7FCCFE00CBD613 /* iAd.framework in Frameworks */,
+				FCAC1C301F7FA05A0009C157 /* AVKit.framework in Frameworks */,
+				FCAC1C241F7F98530009C157 /* MediaPlayer.framework in Frameworks */,
+				F041A94BB20F3F817885FE61 /* Pods_yPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAC1BEC1F7F3F7E0009C157 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7132B6BB65E08EEBE38A65AF /* Pods_yPlayerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAC1BF71F7F3F7E0009C157 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57324070088F3C0BB5836DEF /* Pods_yPlayerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A81AB9B4899F58A693BE9E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC0410E91F7FCD1700CBD613 /* AdSupport.framework */,
+				FC0410E71F7FCCFE00CBD613 /* iAd.framework */,
+				FCAC1C2F1F7FA05A0009C157 /* AVKit.framework */,
+				FCAC1C231F7F98530009C157 /* MediaPlayer.framework */,
+				2AE18E1AA8BD2073D6B25789 /* Pods_yPlayer.framework */,
+				601868CCB6BA4B3A29CCD389 /* Pods_yPlayerTests.framework */,
+				5A47E8041D27EF5AD35C692F /* Pods_yPlayerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E4DDFF76CFDAE2C85EE4BE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF376396B29434699BCAC898 /* Pods-yPlayer.debug.xcconfig */,
+				191491FBFB22626A4C4C9364 /* Pods-yPlayer.release.xcconfig */,
+				B2CC99033BBC5C390D36FCC3 /* Pods-yPlayerTests.debug.xcconfig */,
+				6505FA9C23FB5FCD9C43B0F3 /* Pods-yPlayerTests.release.xcconfig */,
+				FD724758367FDD7854755617 /* Pods-yPlayerUITests.debug.xcconfig */,
+				D8CB219EB74AF6762D309768 /* Pods-yPlayerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FCAC1BCF1F7F3F7D0009C157 = {
+			isa = PBXGroup;
+			children = (
+				FCAC1BDA1F7F3F7D0009C157 /* yPlayer */,
+				FCAC1BF21F7F3F7E0009C157 /* yPlayerTests */,
+				FCAC1BFD1F7F3F7E0009C157 /* yPlayerUITests */,
+				FCAC1BD91F7F3F7D0009C157 /* Products */,
+				5E4DDFF76CFDAE2C85EE4BE2 /* Pods */,
+				2A81AB9B4899F58A693BE9E6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FCAC1BD91F7F3F7D0009C157 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCAC1BD81F7F3F7D0009C157 /* yPlayer.app */,
+				FCAC1BEF1F7F3F7E0009C157 /* yPlayerTests.xctest */,
+				FCAC1BFA1F7F3F7E0009C157 /* yPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCAC1BDA1F7F3F7D0009C157 /* yPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				FCAC1C0F1F7F4B020009C157 /* Models */,
+				FCAC1C0E1F7F4AFE0009C157 /* Views */,
+				FCAC1C0D1F7F4AFB0009C157 /* Controllers */,
+				FCAC1C0C1F7F4AF70009C157 /* Supporting Files */,
+				FCAC1BDB1F7F3F7D0009C157 /* AppDelegate.swift */,
+				FCAC1BDF1F7F3F7D0009C157 /* Main.storyboard */,
+				FCAC1BE51F7F3F7D0009C157 /* Assets.xcassets */,
+				FCAC1BE71F7F3F7D0009C157 /* LaunchScreen.storyboard */,
+				FCAC1BEA1F7F3F7D0009C157 /* Info.plist */,
+				FCAC1C191F7F8EAF0009C157 /* yPlayer-Bridging-Header.h */,
+				FCAC1BE21F7F3F7D0009C157 /* yPlayer.xcdatamodeld */,
+			);
+			path = yPlayer;
+			sourceTree = "<group>";
+		};
+		FCAC1BF21F7F3F7E0009C157 /* yPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCAC1BF31F7F3F7E0009C157 /* yPlayerTests.swift */,
+				FCAC1BF51F7F3F7E0009C157 /* Info.plist */,
+			);
+			path = yPlayerTests;
+			sourceTree = "<group>";
+		};
+		FCAC1BFD1F7F3F7E0009C157 /* yPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCAC1BFE1F7F3F7E0009C157 /* yPlayerUITests.swift */,
+				FCAC1C001F7F3F7E0009C157 /* Info.plist */,
+			);
+			path = yPlayerUITests;
+			sourceTree = "<group>";
+		};
+		FCAC1C0C1F7F4AF70009C157 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCAC1C2C1F7F9A8F0009C157 /* HCYoutubeParser.h */,
+				FCAC1C2D1F7F9A8F0009C157 /* HCYoutubeParser.m */,
+				FCAC1C141F7F72C70009C157 /* Helpers */,
+				FCAC1C101F7F4B2F0009C157 /* GoogleService-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCAC1C0D1F7F4AFB0009C157 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FCAC1BDD1F7F3F7D0009C157 /* ViewController.swift */,
+				FCAC1C171F7F8D660009C157 /* PlayerViewController.swift */,
+				FC0410E51F7FCA9000CBD613 /* LoginViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		FCAC1C0E1F7F4AFE0009C157 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FCAC1C201F7F91800009C157 /* YTPlayerView.h */,
+				FCAC1C211F7F91800009C157 /* YTPlayerView.m */,
+				FCAC1C121F7F5A7A0009C157 /* VideoCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		FCAC1C0F1F7F4B020009C157 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		FCAC1C141F7F72C70009C157 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FCAC1C151F7F72E20009C157 /* Extensions.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCAC1BD71F7F3F7D0009C157 /* yPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCAC1C031F7F3F7E0009C157 /* Build configuration list for PBXNativeTarget "yPlayer" */;
+			buildPhases = (
+				D2EC9D8FED8C23628E92DF49 /* [CP] Check Pods Manifest.lock */,
+				FCAC1BD41F7F3F7D0009C157 /* Sources */,
+				FCAC1BD51F7F3F7D0009C157 /* Frameworks */,
+				FCAC1BD61F7F3F7D0009C157 /* Resources */,
+				FB7EE68AEA2AC962D40DE80E /* [CP] Embed Pods Frameworks */,
+				007FEAC3EC61A2214F466207 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yPlayer;
+			productName = yPlayer;
+			productReference = FCAC1BD81F7F3F7D0009C157 /* yPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCAC1BEE1F7F3F7E0009C157 /* yPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCAC1C061F7F3F7E0009C157 /* Build configuration list for PBXNativeTarget "yPlayerTests" */;
+			buildPhases = (
+				5B0ADE96238993B6CDA3A894 /* [CP] Check Pods Manifest.lock */,
+				FCAC1BEB1F7F3F7E0009C157 /* Sources */,
+				FCAC1BEC1F7F3F7E0009C157 /* Frameworks */,
+				FCAC1BED1F7F3F7E0009C157 /* Resources */,
+				1151B37CEBFCE57FD6F4933C /* [CP] Embed Pods Frameworks */,
+				19A8092CD9C378AB2573ED92 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCAC1BF11F7F3F7E0009C157 /* PBXTargetDependency */,
+			);
+			name = yPlayerTests;
+			productName = yPlayerTests;
+			productReference = FCAC1BEF1F7F3F7E0009C157 /* yPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCAC1BF91F7F3F7E0009C157 /* yPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCAC1C091F7F3F7E0009C157 /* Build configuration list for PBXNativeTarget "yPlayerUITests" */;
+			buildPhases = (
+				7E87E1D59AC046D1608078EA /* [CP] Check Pods Manifest.lock */,
+				FCAC1BF61F7F3F7E0009C157 /* Sources */,
+				FCAC1BF71F7F3F7E0009C157 /* Frameworks */,
+				FCAC1BF81F7F3F7E0009C157 /* Resources */,
+				35FE3FEDE314212268D026D0 /* [CP] Embed Pods Frameworks */,
+				EC8DEDC9E18D4732B49A8454 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCAC1BFC1F7F3F7E0009C157 /* PBXTargetDependency */,
+			);
+			name = yPlayerUITests;
+			productName = yPlayerUITests;
+			productReference = FCAC1BFA1F7F3F7E0009C157 /* yPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCAC1BD01F7F3F7D0009C157 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Manoj;
+				TargetAttributes = {
+					FCAC1BD71F7F3F7D0009C157 = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					FCAC1BEE1F7F3F7E0009C157 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FCAC1BD71F7F3F7D0009C157;
+					};
+					FCAC1BF91F7F3F7E0009C157 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FCAC1BD71F7F3F7D0009C157;
+					};
+				};
+			};
+			buildConfigurationList = FCAC1BD31F7F3F7D0009C157 /* Build configuration list for PBXProject "yPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCAC1BCF1F7F3F7D0009C157;
+			productRefGroup = FCAC1BD91F7F3F7D0009C157 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCAC1BD71F7F3F7D0009C157 /* yPlayer */,
+				FCAC1BEE1F7F3F7E0009C157 /* yPlayerTests */,
+				FCAC1BF91F7F3F7E0009C157 /* yPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCAC1BD61F7F3F7D0009C157 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCAC1BE91F7F3F7D0009C157 /* LaunchScreen.storyboard in Resources */,
+				FCAC1BE61F7F3F7D0009C157 /* Assets.xcassets in Resources */,
+				FCAC1BE11F7F3F7D0009C157 /* Main.storyboard in Resources */,
+				FCAC1C111F7F4B2F0009C157 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAC1BED1F7F3F7E0009C157 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAC1BF81F7F3F7E0009C157 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		007FEAC3EC61A2214F466207 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-yPlayer/Pods-yPlayer-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yPlayer/Pods-yPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1151B37CEBFCE57FD6F4933C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yPlayerTests/Pods-yPlayerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19A8092CD9C378AB2573ED92 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yPlayerTests/Pods-yPlayerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35FE3FEDE314212268D026D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yPlayerUITests/Pods-yPlayerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B0ADE96238993B6CDA3A894 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-yPlayerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E87E1D59AC046D1608078EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-yPlayerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2EC9D8FED8C23628E92DF49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-yPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC8DEDC9E18D4732B49A8454 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yPlayerUITests/Pods-yPlayerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB7EE68AEA2AC962D40DE80E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-yPlayer/Pods-yPlayer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/XCDYouTubeKit/XCDYouTubeKit.framework",
+				"${BUILT_PRODUCTS_DIR}/ionicons/ionicons.framework",
+				"${BUILT_PRODUCTS_DIR}/youtube-ios-player-helper/youtube_ios_player_helper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCDYouTubeKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ionicons.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/youtube_ios_player_helper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yPlayer/Pods-yPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCAC1BD41F7F3F7D0009C157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC0410E61F7FCA9000CBD613 /* LoginViewController.swift in Sources */,
+				FCAC1C161F7F72E20009C157 /* Extensions.swift in Sources */,
+				FCAC1C2E1F7F9A8F0009C157 /* HCYoutubeParser.m in Sources */,
+				FCAC1BE41F7F3F7D0009C157 /* yPlayer.xcdatamodeld in Sources */,
+				FCAC1C131F7F5A7A0009C157 /* VideoCell.swift in Sources */,
+				FCAC1BDE1F7F3F7D0009C157 /* ViewController.swift in Sources */,
+				FCAC1BDC1F7F3F7D0009C157 /* AppDelegate.swift in Sources */,
+				FCAC1C181F7F8D660009C157 /* PlayerViewController.swift in Sources */,
+				FCAC1C221F7F91800009C157 /* YTPlayerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAC1BEB1F7F3F7E0009C157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCAC1BF41F7F3F7E0009C157 /* yPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAC1BF61F7F3F7E0009C157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCAC1BFF1F7F3F7E0009C157 /* yPlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCAC1BF11F7F3F7E0009C157 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCAC1BD71F7F3F7D0009C157 /* yPlayer */;
+			targetProxy = FCAC1BF01F7F3F7E0009C157 /* PBXContainerItemProxy */;
+		};
+		FCAC1BFC1F7F3F7E0009C157 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCAC1BD71F7F3F7D0009C157 /* yPlayer */;
+			targetProxy = FCAC1BFB1F7F3F7E0009C157 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCAC1BDF1F7F3F7D0009C157 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCAC1BE01F7F3F7D0009C157 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCAC1BE71F7F3F7D0009C157 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCAC1BE81F7F3F7D0009C157 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCAC1C011F7F3F7E0009C157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCAC1C021F7F3F7E0009C157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCAC1C041F7F3F7E0009C157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF376396B29434699BCAC898 /* Pods-yPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = yPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Manoj.yPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "yPlayer/yPlayer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FCAC1C051F7F3F7E0009C157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 191491FBFB22626A4C4C9364 /* Pods-yPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = yPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Manoj.yPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "yPlayer/yPlayer-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FCAC1C071F7F3F7E0009C157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2CC99033BBC5C390D36FCC3 /* Pods-yPlayerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = yPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Manoj.yPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yPlayer.app/yPlayer";
+			};
+			name = Debug;
+		};
+		FCAC1C081F7F3F7E0009C157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6505FA9C23FB5FCD9C43B0F3 /* Pods-yPlayerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = yPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Manoj.yPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yPlayer.app/yPlayer";
+			};
+			name = Release;
+		};
+		FCAC1C0A1F7F3F7E0009C157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD724758367FDD7854755617 /* Pods-yPlayerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = yPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Manoj.yPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = yPlayer;
+			};
+			name = Debug;
+		};
+		FCAC1C0B1F7F3F7E0009C157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8CB219EB74AF6762D309768 /* Pods-yPlayerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = yPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Manoj.yPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = yPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCAC1BD31F7F3F7D0009C157 /* Build configuration list for PBXProject "yPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCAC1C011F7F3F7E0009C157 /* Debug */,
+				FCAC1C021F7F3F7E0009C157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCAC1C031F7F3F7E0009C157 /* Build configuration list for PBXNativeTarget "yPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCAC1C041F7F3F7E0009C157 /* Debug */,
+				FCAC1C051F7F3F7E0009C157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCAC1C061F7F3F7E0009C157 /* Build configuration list for PBXNativeTarget "yPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCAC1C071F7F3F7E0009C157 /* Debug */,
+				FCAC1C081F7F3F7E0009C157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCAC1C091F7F3F7E0009C157 /* Build configuration list for PBXNativeTarget "yPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCAC1C0A1F7F3F7E0009C157 /* Debug */,
+				FCAC1C0B1F7F3F7E0009C157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FCAC1BE21F7F3F7D0009C157 /* yPlayer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FCAC1BE31F7F3F7D0009C157 /* yPlayer.xcdatamodel */,
+			);
+			currentVersion = FCAC1BE31F7F3F7D0009C157 /* yPlayer.xcdatamodel */;
+			path = yPlayer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FCAC1BD01F7F3F7D0009C157 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_yPlayerUITests {
+  umbrella header "Pods-yPlayerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
